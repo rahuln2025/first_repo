@@ -11,7 +11,7 @@ Here is a summary of the modules and the code snippets from my assignment soluti
 **Module 1: The Phugoid Model of Glider Flight**
 
 - _Problem_: Phugoid model of glider flight described by set of two nonlinear ODEs.
-- _Topics covered_: a) Euler's method, 2nd-order RK, and leapfrog; b) consistency, convergence testing; c) stability Computational techniques: array operations with NumPy; symbolic computing with SymPy; ODE integrators and libraries; writing and using functions.
+- _Topics_: a) Euler's method, 2nd-order RK, and leapfrog; b) consistency, convergence testing; c) stability Computational techniques: array operations with NumPy; symbolic computing with SymPy; ODE integrators and libraries; writing and using functions.
 
 **Module 2: Space and Time - Introduction to finite-difference solutions of PDEs**
 
