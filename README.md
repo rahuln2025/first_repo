@@ -16,6 +16,7 @@ Here is a summary of the modules and the code snippets from my assignment soluti
 -_Code Snippet_:
 
 ![image](https://user-images.githubusercontent.com/28657501/148197237-8f89f6df-c226-44a7-bf62-e6b8a8970b5f.png)
+
 ![image](https://user-images.githubusercontent.com/28657501/148197307-6574d58b-b078-478c-860d-91205d05e5bb.png)
 
 Using Euler's method with a timestep of dt = 0.1s , create a Python script to calculate the altitude and velocity of the rocket from launch until crash down.  
@@ -52,7 +53,7 @@ v[0] = v0
 h[0] = h0
 
 
- solving by eulers method
+#solving by eulers method
 for n in range(N-1):
     
    # defining the propellent weight as it is varying
@@ -68,12 +69,41 @@ for n in range(N-1):
     
    h[n+1] = h[n] + dt*(v[n])
     
- print(v,"\n", h, "\n")
+print(v,"\n", h, "\n")
 
- 
+# finding the time when the rocket landed/crashed
+
+#idx_landed is the index of the first negative value of h.
+#we do not find idx_landed = numpy.where(h == 0), because it gives the first step as result, when the rocket just launched
+#hence it is better to find the first negative h's index and then limit till that index
+
+idx_landed = numpy.where(h < 0)[0][0]
+# the [0][0] is required becuase idx_landed = numpy.where(h<0) results in an array of arrays with all values of h<0. 
+#the first [0] results the first array and the second [0] results in the element inside the array, thus making idx_landed an int.
+print("Index of first negative h: ", idx_landed, "\n")
+print('Time of landing: ', t[idx_landed - 1], "\n")
+print('Velocity at land: ', v[idx_landed - 1], "\n")
+
+pyplot.figure(figsize=(9.0, 6.0))
+pyplot.title('Path of the rocket (flight time = {})'.format(T))
+pyplot.xlabel('t')
+pyplot.ylabel('h')
+pyplot.grid()
+pyplot.plot(t[:idx_landed], h[:idx_landed], color='C0', linestyle='-', linewidth=2);
+pyplot.figure(figsize=(9.0, 6.0))
+pyplot.title('Path of the rocket (flight time = {})'.format(T))
+pyplot.xlabel('t')
+pyplot.ylabel('v')
+pyplot.grid()
+pyplot.plot(t[:idx_landed], v[:idx_landed], color='C2', linestyle='-', linewidth=2);  
    
 
 ```
+
+_Result snap_:
+
+![image](https://user-images.githubusercontent.com/28657501/148209807-17d23333-c9f5-46ba-acf1-14eda4434d0e.png)
+
 
 
 ## **Module 2: Space and Time - Introduction to finite-difference solutions of PDEs**
