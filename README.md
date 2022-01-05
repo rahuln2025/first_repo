@@ -6,6 +6,9 @@ Link to the course material : https://github.com/numerical-mooc/numerical-mooc
 The course is aimed for first-year graduate and senior undergraduate students. It gives a foundation in scientific computing and introduces numerical methods for solving differential equations. 
 The course material is available in the form of interactive jupyter notebooks with code blocks, along with references for further reading.
 
+Badges awarded after completing each module with link to submitted assignment solutions: [George Washington University MAE6286.pdf](https://github.com/rahuln2025/first_repo/files/7816740/George.Washington.University.MAE6286.pdf)
+
+
 Here is a summary of the modules and the code snippets from my assignment solutions: 
 
 ## **Module 1: The Phugoid Model of Glider Flight**
