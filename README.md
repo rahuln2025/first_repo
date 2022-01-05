@@ -13,10 +13,99 @@ Here is a summary of the modules and the code snippets from my assignment soluti
 - _Problem_: Phugoid model of glider flight described by set of two nonlinear ODEs.
 - _Topics_: a) Euler's method, 2nd-order RK, and leapfrog; b) consistency, convergence testing; c) stability Computational techniques: array operations with NumPy; symbolic computing with SymPy; ODE integrators and libraries; writing and using functions.
 
+-_Code Snippet_:
+
+![image](https://user-images.githubusercontent.com/28657501/148197237-8f89f6df-c226-44a7-bf62-e6b8a8970b5f.png)
+![image](https://user-images.githubusercontent.com/28657501/148197307-6574d58b-b078-478c-860d-91205d05e5bb.png)
+
+Using Euler's method with a timestep of dt = 0.1s , create a Python script to calculate the altitude and velocity of the rocket from launch until crash down.  
+
+Using the results from your code, answer the questions below concerning the flight of the rocket.
+
+**Code**
+```Python
+# Set parameters
+g = 9.81
+ve = 325.0
+v0=0.0
+h0 = 0.0
+Cd = 0.15
+rho = 1.091
+r = 0.5
+m_s = 50.0 #shell weight
+m_p0 = 100.0
+   
+#create timesteps
+dt = 0.1
+T = 100
+N = int(T/dt) + 1
+
+for i in range(0, N):
+    t = numpy.linspace(0.0, T, num = N)
+    
+# create arrays to store v, h at each time step
+v = numpy.empty(N)
+h = numpy.empty(N)
+
+# initialize v, h
+v[0] = v0
+h[0] = h0
+
+
+ solving by eulers method
+for n in range(N-1):
+    
+   # defining the propellent weight as it is varying
+   if t[n] < 5:
+       m_dot_p = 20.0
+       m_p = m_p0 - m_dot_p*t[n]
+   else: 
+       m_dot_p = 0.0
+       m_p = 0
+    
+   #applying eulers method
+   v[n+1] = v[n] + dt*(- g + ((m_dot_p*ve)/(m_s + m_p)) - ((0.5*rho*math.pi*(r**2)*Cd*v[n]*abs(v[n]))/(m_s + m_p)))
+    
+   h[n+1] = h[n] + dt*(v[n])
+    
+ print(v,"\n", h, "\n")
+
+ 
+   
+
+```
+
+
 ## **Module 2: Space and Time - Introduction to finite-difference solutions of PDEs**
 
 - _Problem_: Linear convection equation in one dimension.
 - _Topics_: Finite differencing in PDEs, CFL condition, numerical diffusion, accuracy of finite difference approximations via Tyalor sieries, consistency and stability, introduction to conservation laws, array operations with Numpy, symbolic computing with SymPy. 
+
+-_Code Snippet_:
+
+![image](https://user-images.githubusercontent.com/28657501/148188545-398387f8-065b-400e-b1a9-4f1bd74286ee.png)
+![image](https://user-images.githubusercontent.com/28657501/148188651-c7c254e5-eedb-46dd-adbb-118d55a98c06.png)
+
+**Key Function**
+    
+ ```Python
+       
+       # itegrate using numerical scheme
+       def rho(rho0, dx, dt, rho_max, vmax, nt = 10):
+          rho = rho0.copy()
+          rho_hist1 = [rho0.copy()]
+          for n in range(nt):
+              rho[1:] = rho[1:] - ((vmax*dt/dx)*(1 - ((2*rho[1:])/rho_max))*(rho[1:] - rho[:-1]))
+
+              #here the boundary condition is that at any t, the rho at x = 0 is 10 (or 20 in case of second question case)
+              rho_hist1.append(rho.copy())
+
+        return rho_hist1
+  ```
+_Result snap_:
+
+https://user-images.githubusercontent.com/28657501/148194909-daea2db4-1638-4a55-bbba-3d75b724b1a0.mp4
+
 
 ## **Module 3: Riding the wave: Convection Problems**
 
