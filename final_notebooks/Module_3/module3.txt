@@ -1,0 +1,1 @@
+This folder contains the worked notebooks of the third module from the numerical-mooc by Prof. Lorena Barba and team. 
