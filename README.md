@@ -1,5 +1,5 @@
 ##### first_repo
-### My worked notebooks as per the course: Practical Numerical Computing with Python by Prof. Lorena Barba from the University of Washington
+## My worked notebooks as per the course: Practical Numerical Computing with Python by Prof. Lorena Barba from the University of Washington
 
 Link to the course material : https://github.com/numerical-mooc/numerical-mooc
 
@@ -12,7 +12,7 @@ Please find my final worked notebooks for each module of the course here: https:
 
 Here is a summary of the modules and the code snippets from my assignment solutions: 
 
-## **Module 1: The Phugoid Model of Glider Flight**
+### **Module 1: The Phugoid Model of Glider Flight**
 
 - _Problem_: Phugoid model of glider flight described by set of two nonlinear ODEs.
 - _Topics_: a) Euler's method, 2nd-order RK, and leapfrog; b) consistency, convergence testing; c) stability Computational techniques: array operations with NumPy; symbolic computing with SymPy; ODE integrators and libraries; writing and using functions.
@@ -110,7 +110,7 @@ _Result snap_:
 
 
 
-## **Module 2: Space and Time - Introduction to finite-difference solutions of PDEs**
+### **Module 2: Space and Time - Introduction to finite-difference solutions of PDEs**
 
 - _Problem_: Linear convection equation in one dimension.
 - _Topics_: Finite differencing in PDEs, CFL condition, numerical diffusion, accuracy of finite difference approximations via Tyalor sieries, consistency and stability, introduction to conservation laws, array operations with Numpy, symbolic computing with SymPy. 
@@ -141,7 +141,7 @@ _Result snap_:
 https://user-images.githubusercontent.com/28657501/148194909-daea2db4-1638-4a55-bbba-3d75b724b1a0.mp4
 
 
-## **Module 3: Riding the wave: Convection Problems**
+### **Module 3: Riding the wave: Convection Problems**
 
 - _Problem_: Traffic-flow model to study different solutions for problems with shocks.
 - _Topics_: Upwind scheme, Lax-Friedrichs scheme, Lax-Wendroff scheme, MacCormack scheme, MUSCL scheme.
@@ -200,7 +200,7 @@ https://user-images.githubusercontent.com/28657501/148194909-daea2db4-1638-4a55-
 
 
 
-## **Module 4: Spreading out: Diffusion Problems**
+### **Module 4: Spreading out: Diffusion Problems**
 
 - _Problem_: Diffusion (heat) equation as a problem to solve parabolic PDEs. Start with 1D heat equaiton and move to 2D heat equation.
 - _Topics_: Implicit and Explicit Schemes with boundary condition implementation, Crank-Nocolson Scheme
@@ -270,7 +270,7 @@ https://user-images.githubusercontent.com/28657501/148194909-daea2db4-1638-4a55-
 
 
 
-## **Module 5: Relax and hold stead: Elliptic Problems**
+### **Module 5: Relax and hold stead: Elliptic Problems**
 
 - _Problem_: Laplace and Poisson equations to be solved by iterative methods
 - _Topics_: Iterative methods for solving algebraic equations based on disctretization of PDEs, namely, Jacobi method, Gauss-Siedel, Successive over-relaxation and conjugate gradient method.
