@@ -8,6 +8,7 @@ The course material is available in the form of interactive jupyter notebooks wi
 
 Please find badges awarded after completing each module with links to the submitted assignment solutions here: [George Washington University MAE6286.pdf](https://github.com/rahuln2025/first_repo/files/7816740/George.Washington.University.MAE6286.pdf)
 
+Please find my final worked notebooks for each module of the course here: https://github.com/rahuln2025/first_repo/tree/main/final_notebooks
 
 Here is a summary of the modules and the code snippets from my assignment solutions: 
 
