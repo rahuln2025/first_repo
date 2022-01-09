@@ -212,7 +212,7 @@ https://user-images.githubusercontent.com/28657501/148194909-daea2db4-1638-4a55-
 
     ```Python
     import urllib.request
-
+    #set up initial conditions
     # Download and read the data file.
     url = ('https://github.com/numerical-mooc/numerical-mooc/blob/master/'
            'lessons/04_spreadout/data/uvinitial.npz?raw=true')
