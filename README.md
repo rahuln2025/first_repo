@@ -1,8 +1,8 @@
 ##### first_repo
 ## My worked notebooks as per the course: Practical Numerical Computing with Python by Prof. Lorena Barba and team from the University of Washington
 
-Link to the course material on github : https://github.com/numerical-mooc/numerical-mooc
-Link to course on Open edX platform: https://openedx.seas.gwu.edu/courses/course-v1:MAE+MAE6286+2017/about
+- Link to the course material on github : https://github.com/numerical-mooc/numerical-mooc
+- Link to course on Open edX platform: https://openedx.seas.gwu.edu/courses/course-v1:MAE+MAE6286+2017/about
 
 The course is aimed for first-year graduate and senior undergraduate students. It gives a foundation in scientific computing and introduces numerical methods for solving differential equations. 
 The course material is available in the form of interactive jupyter notebooks with code blocks, along with references for further reading.
