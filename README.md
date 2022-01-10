@@ -6,7 +6,7 @@ Link to the course material : https://github.com/numerical-mooc/numerical-mooc
 The course is aimed for first-year graduate and senior undergraduate students. It gives a foundation in scientific computing and introduces numerical methods for solving differential equations. 
 The course material is available in the form of interactive jupyter notebooks with code blocks, along with references for further reading.
 
-Please find badges awarded after completing each module with links to the submitted assignment solutions here: [George Washington University MAE6286.pdf](https://github.com/rahuln2025/first_repo/files/7816740/George.Washington.University.MAE6286.pdf)
+Please find badges awarded after completing each module with links to the submitted assignment solutions here: [MAE6286_NumericalMOOC_Badges.pdf](https://github.com/rahuln2025/first_repo/files/7836980/MAE6286_NumericalMOOC_Badges.pdf)
 
 Please find my final worked notebooks for each module of the course here: https://github.com/rahuln2025/first_repo/tree/main/final_notebooks
 
@@ -26,6 +26,8 @@ Here is a summary of the modules and the code snippets from my assignment soluti
 Using Euler's method with a timestep of dt = 0.1s , create a Python script to calculate the altitude and velocity of the rocket from launch until crash down.  
 
 Using the results from your code, answer the questions below concerning the flight of the rocket.
+
+_Link to Code_: https://github.com/rahuln2025/first_repo/blob/ace8986512568f3fa362fe822547fee8b02e76a9/numerical-mooc-master/working_notebooks/Module1_RocketFlightAssignment_UploadedSol.ipynb
 
 **Code**
 ```Python
@@ -120,6 +122,8 @@ _Result snap_:
 ![image](https://user-images.githubusercontent.com/28657501/148188545-398387f8-065b-400e-b1a9-4f1bd74286ee.png)
 ![image](https://user-images.githubusercontent.com/28657501/148188651-c7c254e5-eedb-46dd-adbb-118d55a98c06.png)
 
+_Link to Code_: https://github.com/rahuln2025/first_repo/blob/main/numerical-mooc-master/working_notebooks/TrafficFLow_Asst_Module2.ipynb
+
 **Key Function**
     
  ```Python
@@ -153,7 +157,9 @@ https://user-images.githubusercontent.com/28657501/148194909-daea2db4-1638-4a55-
    ![image](https://user-images.githubusercontent.com/28657501/148101704-82e422bf-5d7a-47fc-adf7-0a637cc43b4f.png)
    ![image](https://user-images.githubusercontent.com/28657501/148101289-848815ab-703b-422d-873c-b5c8945e1e33.png)
    
-   **Key Functions**
+  _Link to Code_: https://github.com/rahuln2025/first_repo/blob/0262538410bc49a3a56f51e48186557faf662cf7/numerical-mooc-master/working_notebooks/Module3/SodsShockTube_Asst_Mod3.ipynb
+  
+  **Key Functions**
     ```Python
        #calculate flux for the Richtmyer scheme
        def flux(U):
@@ -230,7 +236,9 @@ https://user-images.githubusercontent.com/28657501/148194909-daea2db4-1638-4a55-
     ```
     ![image](https://user-images.githubusercontent.com/28657501/148091492-e93e8409-d403-42ff-91e8-6e32943cfdbe.png)
     
-    **Key function**
+   _Link to Code_: https://github.com/rahuln2025/first_repo/blob/3f4f5e72ff0a27d40a17c9332a2c782f92308396/numerical-mooc-master/working_notebooks/M4_Ast_ReactionDiffusionModel.ipynb
+   
+   **Key function**
     ```Python
     def ftcs_rxn_dfn(u, v, dx, dy, dt, nt, Du, Dv, F, k):
     u = u0.copy()
@@ -278,6 +286,8 @@ https://user-images.githubusercontent.com/28657501/148194909-daea2db4-1638-4a55-
 - _Code Snippet_:
 
     ![image](https://user-images.githubusercontent.com/28657501/147852530-2ff96d43-9dcd-400f-b4cf-5d1ecdd47ba7.png)
+
+_Link to Code_: https://github.com/rahuln2025/first_repo/blob/main/numerical-mooc-master/working_notebooks/Ast_Module_5.ipynb
 
 **Key function**
 ```Python
