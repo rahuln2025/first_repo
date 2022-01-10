@@ -17,7 +17,9 @@ Here is a summary of the modules and the code snippets from my assignment soluti
 - _Problem_: Phugoid model of glider flight described by set of two nonlinear ODEs.
 - _Topics_: a) Euler's method, 2nd-order RK, and leapfrog; b) consistency, convergence testing; c) stability Computational techniques: array operations with NumPy; symbolic computing with SymPy; ODE integrators and libraries; writing and using functions.
 
--_Code Snippet_:
+- _Link to Code_: https://github.com/rahuln2025/first_repo/blob/ace8986512568f3fa362fe822547fee8b02e76a9/numerical-mooc-master/working_notebooks/Module1_RocketFlightAssignment_UploadedSol.ipynb
+
+- _Code Snippet_:
 
 ![image](https://user-images.githubusercontent.com/28657501/148197237-8f89f6df-c226-44a7-bf62-e6b8a8970b5f.png)
 
@@ -26,8 +28,6 @@ Here is a summary of the modules and the code snippets from my assignment soluti
 Using Euler's method with a timestep of dt = 0.1s , create a Python script to calculate the altitude and velocity of the rocket from launch until crash down.  
 
 Using the results from your code, answer the questions below concerning the flight of the rocket.
-
-_Link to Code_: https://github.com/rahuln2025/first_repo/blob/ace8986512568f3fa362fe822547fee8b02e76a9/numerical-mooc-master/working_notebooks/Module1_RocketFlightAssignment_UploadedSol.ipynb
 
 **Code**
 ```Python
@@ -117,12 +117,12 @@ _Result snap_:
 - _Problem_: Linear convection equation in one dimension.
 - _Topics_: Finite differencing in PDEs, CFL condition, numerical diffusion, accuracy of finite difference approximations via Tyalor sieries, consistency and stability, introduction to conservation laws, array operations with Numpy, symbolic computing with SymPy. 
 
--_Code Snippet_:
+- _Link to Code_: https://github.com/rahuln2025/first_repo/blob/main/numerical-mooc-master/working_notebooks/TrafficFLow_Asst_Module2.ipynb
+
+- _Code Snippet_:
 
 ![image](https://user-images.githubusercontent.com/28657501/148188545-398387f8-065b-400e-b1a9-4f1bd74286ee.png)
 ![image](https://user-images.githubusercontent.com/28657501/148188651-c7c254e5-eedb-46dd-adbb-118d55a98c06.png)
-
-_Link to Code_: https://github.com/rahuln2025/first_repo/blob/main/numerical-mooc-master/working_notebooks/TrafficFLow_Asst_Module2.ipynb
 
 **Key Function**
     
@@ -150,14 +150,14 @@ https://user-images.githubusercontent.com/28657501/148194909-daea2db4-1638-4a55-
 - _Problem_: Traffic-flow model to study different solutions for problems with shocks.
 - _Topics_: Upwind scheme, Lax-Friedrichs scheme, Lax-Wendroff scheme, MacCormack scheme, MUSCL scheme.
 
+- _Link to Code_: https://github.com/rahuln2025/first_repo/blob/0262538410bc49a3a56f51e48186557faf662cf7/numerical-mooc-master/working_notebooks/Module3/SodsShockTube_Asst_Mod3.ipynb
+
 - _Code Snippet_: 
 
    ![image](https://user-images.githubusercontent.com/28657501/148097851-3b7d6ecd-e6fc-4024-90a6-09a0436ecb8e.png)
    ![image](https://user-images.githubusercontent.com/28657501/148097952-8901391c-a982-4c24-8fe8-5aeb163249bd.png)
    ![image](https://user-images.githubusercontent.com/28657501/148101704-82e422bf-5d7a-47fc-adf7-0a637cc43b4f.png)
    ![image](https://user-images.githubusercontent.com/28657501/148101289-848815ab-703b-422d-873c-b5c8945e1e33.png)
-   
-  _Link to Code_: https://github.com/rahuln2025/first_repo/blob/0262538410bc49a3a56f51e48186557faf662cf7/numerical-mooc-master/working_notebooks/Module3/SodsShockTube_Asst_Mod3.ipynb
   
   **Key Functions**
     ```Python
@@ -211,6 +211,8 @@ https://user-images.githubusercontent.com/28657501/148194909-daea2db4-1638-4a55-
 - _Problem_: Diffusion (heat) equation as a problem to solve parabolic PDEs. Start with 1D heat equaiton and move to 2D heat equation.
 - _Topics_: Implicit and Explicit Schemes with boundary condition implementation, Crank-Nocolson Scheme
 
+- _Link to Code_: https://github.com/rahuln2025/first_repo/blob/3f4f5e72ff0a27d40a17c9332a2c782f92308396/numerical-mooc-master/working_notebooks/M4_Ast_ReactionDiffusionModel.ipynb
+
 - _Code Snippet_: 
    
   ![image](https://user-images.githubusercontent.com/28657501/148088959-4e4a7b1d-f372-4236-9161-e56512f26b5f.png)
@@ -235,8 +237,7 @@ https://user-images.githubusercontent.com/28657501/148194909-daea2db4-1638-4a55-
     ax[1].axis('off');
     ```
     ![image](https://user-images.githubusercontent.com/28657501/148091492-e93e8409-d403-42ff-91e8-6e32943cfdbe.png)
-    
-   _Link to Code_: https://github.com/rahuln2025/first_repo/blob/3f4f5e72ff0a27d40a17c9332a2c782f92308396/numerical-mooc-master/working_notebooks/M4_Ast_ReactionDiffusionModel.ipynb
+
    
    **Key function**
     ```Python
@@ -283,11 +284,11 @@ https://user-images.githubusercontent.com/28657501/148194909-daea2db4-1638-4a55-
 - _Problem_: Laplace and Poisson equations to be solved by iterative methods
 - _Topics_: Iterative methods for solving algebraic equations based on disctretization of PDEs, namely, Jacobi method, Gauss-Siedel, Successive over-relaxation and conjugate gradient method.
 
+- _Link to Code_: https://github.com/rahuln2025/first_repo/blob/main/numerical-mooc-master/working_notebooks/Ast_Module_5.ipynb
+
 - _Code Snippet_:
 
     ![image](https://user-images.githubusercontent.com/28657501/147852530-2ff96d43-9dcd-400f-b4cf-5d1ecdd47ba7.png)
-
-_Link to Code_: https://github.com/rahuln2025/first_repo/blob/main/numerical-mooc-master/working_notebooks/Ast_Module_5.ipynb
 
 **Key function**
 ```Python
