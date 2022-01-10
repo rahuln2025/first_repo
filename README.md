@@ -1,5 +1,5 @@
 ##### first_repo
-## My worked notebooks as per the course: Practical Numerical Computing with Python by Prof. Lorena Barba from the University of Washington
+## My worked notebooks as per the course: Practical Numerical Computing with Python by Prof. Lorena Barba and team from the University of Washington
 
 Link to the course material : https://github.com/numerical-mooc/numerical-mooc
 
@@ -198,7 +198,7 @@ https://user-images.githubusercontent.com/28657501/148194909-daea2db4-1638-4a55-
     
         return U_hist
         
-        ```
+       ```
  _Result snap_:
         
  ![image](https://user-images.githubusercontent.com/28657501/148103938-2162458f-c3f9-4b28-914c-31a5db31dcb4.png)
