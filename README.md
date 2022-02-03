@@ -280,7 +280,7 @@ https://user-images.githubusercontent.com/28657501/148194909-daea2db4-1638-4a55-
 
 
 
-### **Module 5: Relax and hold stead: Elliptic Problems**
+### **Module 5: Relax and hold steady: Elliptic Problems**
 
 - _Problem_: Laplace and Poisson equations to be solved by iterative methods
 - _Topics_: Iterative methods for solving algebraic equations based on disctretization of PDEs, namely, Jacobi method, Gauss-Siedel, Successive over-relaxation and conjugate gradient method.
